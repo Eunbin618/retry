@@ -55,7 +55,7 @@ public class GameTime : MonoBehaviour
     private void OnTimerEnd()
     {
         Debug.Log("6분이 끝났습니다");
-        daychange.OnDayChange();
+        //daychange.OnDayChange();
         StartGameTimer();
     }
 }

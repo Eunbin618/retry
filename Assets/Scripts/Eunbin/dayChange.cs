@@ -11,8 +11,8 @@ public class DayChange : MonoBehaviour
     public getMenu getMenuScript;
     private int day = 1; // Day 값
     private bool isSpecialCustomerSubscribed = false;
-
-    void Start()
+}
+   /* void Start()
     {
         dayChangButton.onClick.AddListener(() =>
         {
@@ -56,3 +56,4 @@ public class DayChange : MonoBehaviour
         
     }
 }
+*/

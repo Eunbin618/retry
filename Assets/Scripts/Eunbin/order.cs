@@ -52,7 +52,7 @@ public class Order : MonoBehaviour
         postman.SetActive(true);
         orderCheck.gameObject.SetActive(true);
         order.SetActive(true); // 주문 UI 비활성화
-        InitializeButtons(); // 버튼 초기화
+        //InitializeButtons(); // 버튼 초기화
         LoadDialoguesFromCSV(); // CSV 파일 로드
         LoadNicknameFromCSV();
         Postmanment();
