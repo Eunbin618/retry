@@ -30,11 +30,8 @@ public class deadline_h : MonoBehaviour
         // 돈 관리
         LoadMoneyData();
 
-<<<<<<< HEAD
         SceneManager.LoadScene("Main", LoadSceneMode.Additive);
 
-=======
->>>>>>> parent of 55e917d (Merge pull request #56 from SUHHAN/haeun1212)
         // 오디오 관리
         // AudioManager.Instance.PlayBgm(AudioManager.Bgm.inside_kitchen_baking);
         AudioManager.Instance.StopBgm();

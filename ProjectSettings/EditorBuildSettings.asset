@@ -50,13 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/haeun/DayEnd.unity
     guid: 3e96e88abea6c64439048c1db30ad486
-<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/test/Main 1.unity
     guid: 579c7d2ab7189c2468d5747840b428d1
   - enabled: 1
     path: Assets/Scenes/Sunwoo/Baking 1.unity
     guid: d302ab64626714b4fba5aaa1d2b804a3
-=======
->>>>>>> parent of 55e917d (Merge pull request #56 from SUHHAN/haeun1212)
   m_configObjects: {}
