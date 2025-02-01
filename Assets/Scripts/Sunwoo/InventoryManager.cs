@@ -1,254 +1,254 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using System.IO;
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
+// using UnityEngine.UI;
+// using System.IO;
 
-public class InventoryManager : MonoBehaviour
-{
-    private Dictionary<int, int> ingredientCounts = new Dictionary<int, int>(); // ÀÎµ¦½º ±â¹ÝÀ¸·Î Àç·á °³¼ö °ü¸®
-    public List<Ingred> ingreList = new List<Ingred>(); // CSV¿¡¼­ ºÒ·¯¿Â Àç·á ¸®½ºÆ®
-    private GameData gameData; // DataManager¿¡¼­ ºÒ·¯¿Â µ¥ÀÌÅÍ
-    private string csvFileName = "ingredient.csv"; // CSV ÆÄÀÏ¸í
+// public class InventoryManager : MonoBehaviour
+// {
+//     private Dictionary<int, int> ingredientCounts = new Dictionary<int, int>(); // ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//     public List<Ingred> ingreList = new List<Ingred>(); // CSVï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
+//     private GameData gameData; // DataManagerï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//     private string csvFileName = "ingredient.csv"; // CSV ï¿½ï¿½ï¿½Ï¸ï¿½
 
-    // ³ÃÀå°í¿¡ ÀÖ´Â Àç·á ¹öÆ° ¸®½ºÆ® Ãß°¡
-    public List<GameObject> refrigeratorButtons = new List<GameObject>();
+//     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß°ï¿½
+//     public List<GameObject> refrigeratorButtons = new List<GameObject>();
 
-    [System.Serializable]
-    public class Ingred
-    {
-        public int index;
-        public string name;
-        public int type;
-        public int price;
-        public string ename; // ¿µ¾î ÀÌ¸§ Ãß°¡
+//     [System.Serializable]
+//     public class Ingred
+//     {
+//         public int index;
+//         public string name;
+//         public int type;
+//         public int price;
+//         public string ename; // ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ ï¿½ß°ï¿½
 
-        public Ingred(int index, string name, int type, int price, string ename)
-        {
-            this.index = index;
-            this.name = name;
-            this.type = type;
-            this.price = price;
-            this.ename = ename;
-        }
-    }
+//         public Ingred(int index, string name, int type, int price, string ename)
+//         {
+//             this.index = index;
+//             this.name = name;
+//             this.type = type;
+//             this.price = price;
+//             this.ename = ename;
+//         }
+//     }
 
-    void Start()
-    {
-        // CSV¿¡¼­ Àç·á Á¤º¸ ºÒ·¯¿À±â
-        LoadIngredientsFromCSV();
+//     void Start()
+//     {
+//         // CSVï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½
+//         LoadIngredientsFromCSV();
 
-        Debug.Log($"ingreList¿¡ ·ÎµåµÈ Àç·á °³¼ö: {ingreList.Count}");
+//         Debug.Log($"ingreListï¿½ï¿½ ï¿½Îµï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: {ingreList.Count}");
 
-        // DataManager¿¡¼­ ÀúÀåµÈ Àç·á °³¼ö ºÒ·¯¿À±â
-        LoadIngredientsFromGameData();
+//         // DataManagerï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½
+//         LoadIngredientsFromGameData();
 
-        // ³ÃÀå°í Àç·á ¹öÆ° ¾÷µ¥ÀÌÆ®
-        UpdateRefrigeratorButtons();
+//         // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
+//         UpdateRefrigeratorButtons();
 
-        PrintIngredientList();
-    }
+//         PrintIngredientList();
+//     }
 
-    // ³ÃÀå°í Àç·á ¹öÆ° ¾÷µ¥ÀÌÆ® (index ±â¹ÝÀ¸·Î ¹öÆ° È°¼ºÈ­)
-    public void UpdateRefrigeratorButtons()
-    {
-        foreach (GameObject buttonObj in refrigeratorButtons)
-        {
-            string buttonName = buttonObj.name.Replace("Button", ""); // ¹öÆ° ÀÌ¸§¿¡¼­ "Button" Á¦°Å
-            int ingredientIndex = GetIngredientIndexFromEname(buttonName); // enameÀ» index·Î º¯È¯
+//     // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® (index ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° È°ï¿½ï¿½È­)
+//     public void UpdateRefrigeratorButtons()
+//     {
+//         foreach (GameObject buttonObj in refrigeratorButtons)
+//         {
+//             string buttonName = buttonObj.name.Replace("Button", ""); // ï¿½ï¿½Æ° ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ "Button" ï¿½ï¿½ï¿½ï¿½
+//             int ingredientIndex = GetIngredientIndexFromEname(buttonName); // enameï¿½ï¿½ indexï¿½ï¿½ ï¿½ï¿½È¯
 
-            bool hasIngredient = HasIngredient(ingredientIndex);
+//             bool hasIngredient = HasIngredient(ingredientIndex);
 
-            buttonObj.SetActive(hasIngredient);
-            Debug.Log($"Àç·á ¹öÆ° ¾÷µ¥ÀÌÆ®: {buttonName} (Index: {ingredientIndex}), ¼ÒÁö ¿©ºÎ: {hasIngredient}");
-        }
-    }
+//             buttonObj.SetActive(hasIngredient);
+//             Debug.Log($"ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®: {buttonName} (Index: {ingredientIndex}), ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: {hasIngredient}");
+//         }
+//     }
 
-    // GameDataManager¿¡¼­ Àç·á °³¼ö ºÒ·¯¿À±â
-    private void LoadIngredientsFromGameData()
-    {
-        gameData = DataManager.Instance?.LoadGameData();
+//     // GameDataManagerï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½
+//     private void LoadIngredientsFromGameData()
+//     {
+//         gameData = DataManager.Instance?.LoadGameData();
 
-        if (gameData == null)
-        {
-            Debug.LogError("LoadIngredientsFromGameData: GameData°¡ nullÀÔ´Ï´Ù! DataManager¿¡¼­ µ¥ÀÌÅÍ¸¦ °¡Á®¿Ã ¼ö ¾ø½À´Ï´Ù.");
-            return;
-        }
+//         if (gameData == null)
+//         {
+//             Debug.LogError("LoadIngredientsFromGameData: GameDataï¿½ï¿½ nullï¿½Ô´Ï´ï¿½! DataManagerï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+//             return;
+//         }
 
-        if (gameData.ingredientNum == null)
-        {
-            Debug.LogWarning("LoadIngredientsFromGameData: ingredientNumÀÌ nullÀÌ¹Ç·Î ºó ¸®½ºÆ®·Î ÃÊ±âÈ­ÇÕ´Ï´Ù.");
-            gameData.ingredientNum = new List<int>(new int[ingreList.Count]); // ºó ¸®½ºÆ® ÃÊ±âÈ­
-        }
+//         if (gameData.ingredientNum == null)
+//         {
+//             Debug.LogWarning("LoadIngredientsFromGameData: ingredientNumï¿½ï¿½ nullï¿½Ì¹Ç·ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ê±ï¿½È­ï¿½Õ´Ï´ï¿½.");
+//             gameData.ingredientNum = new List<int>(new int[ingreList.Count]); // ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ê±ï¿½È­
+//         }
 
-        // CSV¿¡¼­ ºÒ·¯¿Â Àç·á ¸®½ºÆ®¿Í ¸ÅÄªÇÏ¿© °³¼ö ¼³Á¤
-        for (int i = 0; i < ingreList.Count; i++)
-        {
-            int ingredientIndex = ingreList[i].index;
-            int count = (i < gameData.ingredientNum.Count) ? gameData.ingredientNum[i] : 0;
-            ingredientCounts[ingredientIndex] = count;
-        }
+//         // CSVï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½Äªï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//         for (int i = 0; i < ingreList.Count; i++)
+//         {
+//             int ingredientIndex = ingreList[i].index;
+//             int count = (i < gameData.ingredientNum.Count) ? gameData.ingredientNum[i] : 0;
+//             ingredientCounts[ingredientIndex] = count;
+//         }
 
-        Debug.Log("Àç·á µ¥ÀÌÅÍ¸¦ ¼º°øÀûÀ¸·Î ºÒ·¯¿Ô½À´Ï´Ù.");
-        PrintCurrentInventory();
-    }
+//         Debug.Log("ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½Ô½ï¿½ï¿½Ï´ï¿½.");
+//         PrintCurrentInventory();
+//     }
 
-    // Àç·á °³¼ö ÀúÀå
-    private void SaveIngredients()
-    {
-        if (gameData == null)
-        {
-            Debug.LogError("SaveIngredients: GameData°¡ nullÀÌ¹Ç·Î ÀúÀåÇÒ ¼ö ¾ø½À´Ï´Ù.");
-            return;
-        }
+//     // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//     private void SaveIngredients()
+//     {
+//         if (gameData == null)
+//         {
+//             Debug.LogError("SaveIngredients: GameDataï¿½ï¿½ nullï¿½Ì¹Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+//             return;
+//         }
 
-        // ingredientCounts µñ¼Å³Ê¸® °ªÀ» ingredientNum ¸®½ºÆ®·Î º¯È¯
-        List<int> updatedIngredientNum = new List<int>();
+//         // ingredientCounts ï¿½ï¿½Å³Ê¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ingredientNum ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È¯
+//         List<int> updatedIngredientNum = new List<int>();
 
-        foreach (var ingredient in ingreList)
-        {
-            if (ingredientCounts.ContainsKey(ingredient.index))
-            {
-                updatedIngredientNum.Add(ingredientCounts[ingredient.index]);
-            }
-            else
-            {
-                updatedIngredientNum.Add(0);
-            }
-        }
+//         foreach (var ingredient in ingreList)
+//         {
+//             if (ingredientCounts.ContainsKey(ingredient.index))
+//             {
+//                 updatedIngredientNum.Add(ingredientCounts[ingredient.index]);
+//             }
+//             else
+//             {
+//                 updatedIngredientNum.Add(0);
+//             }
+//         }
 
-        // ¾÷µ¥ÀÌÆ®µÈ µ¥ÀÌÅÍ ÀúÀå
-        gameData.ingredientNum = updatedIngredientNum;
-        DataManager.Instance.SaveGameData();
-    }
+//         // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//         gameData.ingredientNum = updatedIngredientNum;
+//         DataManager.Instance.SaveGameData();
+//     }
 
-    // CSV¿¡¼­ Àç·á ¸ñ·Ï ºÒ·¯¿À±â
-    private void LoadIngredientsFromCSV()
-    {
-        try
-        {
-            TextAsset csvFile = Resources.Load<TextAsset>("ingredient");
-            if (csvFile == null)
-            {
-                Debug.LogError("CSV ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù: ingredient.csv");
-                return;
-            }
+//     // CSVï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½
+//     private void LoadIngredientsFromCSV()
+//     {
+//         try
+//         {
+//             TextAsset csvFile = Resources.Load<TextAsset>("ingredient");
+//             if (csvFile == null)
+//             {
+//                 Debug.LogError("CSV ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½: ingredient.csv");
+//                 return;
+//             }
 
-            string[] lines = csvFile.text.Split(new[] { '\r', '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
+//             string[] lines = csvFile.text.Split(new[] { '\r', '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
 
-            for (int i = 1; i < lines.Length; i++) // Ã¹ ¹øÂ° ÁÙ(Çì´õ) Á¦¿Ü
-            {
-                string[] fields = lines[i].Split(',');
-                if (fields.Length < 5) continue; // ename±îÁö ÀÖ´ÂÁö È®ÀÎ
+//             for (int i = 1; i < lines.Length; i++) // Ã¹ ï¿½ï¿½Â° ï¿½ï¿½(ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½
+//             {
+//                 string[] fields = lines[i].Split(',');
+//                 if (fields.Length < 5) continue; // enameï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 
-                int index = int.Parse(fields[0].Trim());
-                string name = fields[1].Trim();
-                int type = int.Parse(fields[2].Trim());
-                int price = int.Parse(fields[3].Trim());
-                string ename = fields[4].Trim().ToLower(); // ename Ãß°¡
+//                 int index = int.Parse(fields[0].Trim());
+//                 string name = fields[1].Trim();
+//                 int type = int.Parse(fields[2].Trim());
+//                 int price = int.Parse(fields[3].Trim());
+//                 string ename = fields[4].Trim().ToLower(); // ename ï¿½ß°ï¿½
 
-                ingreList.Add(new Ingred(index, name, type, price, ename));
+//                 ingreList.Add(new Ingred(index, name, type, price, ename));
 
-                Debug.Log($"·ÎµåµÊ: {index}, {name}, {ename}");
-            }
+//                 Debug.Log($"ï¿½Îµï¿½ï¿½: {index}, {name}, {ename}");
+//             }
 
-            Debug.Log($"ÃÑ {ingreList.Count}°³ÀÇ Àç·á¸¦ CSV¿¡¼­ ºÒ·¯¿Ô½À´Ï´Ù.");
-        }
-        catch (System.Exception ex)
-        {
-            Debug.LogError($"CSV ÆÄÀÏ ÀÐ±â Áß ¿À·ù ¹ß»ý: {ex.Message}");
-        }
-    }
+//             Debug.Log($"ï¿½ï¿½ {ingreList.Count}ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½á¸¦ CSVï¿½ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½Ô½ï¿½ï¿½Ï´ï¿½.");
+//         }
+//         catch (System.Exception ex)
+//         {
+//             Debug.LogError($"CSV ï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½: {ex.Message}");
+//         }
+//     }
 
-    // Àç·á Ãß°¡
-    public void AddIngredient(int ingredientIndex, int count = 1)
-    {
-        if (ingredientCounts.ContainsKey(ingredientIndex))
-        {
-            ingredientCounts[ingredientIndex] += count;
-        }
-        else
-        {
-            ingredientCounts[ingredientIndex] = count;
-        }
+//     // ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
+//     public void AddIngredient(int ingredientIndex, int count = 1)
+//     {
+//         if (ingredientCounts.ContainsKey(ingredientIndex))
+//         {
+//             ingredientCounts[ingredientIndex] += count;
+//         }
+//         else
+//         {
+//             ingredientCounts[ingredientIndex] = count;
+//         }
 
-        SaveIngredients();
-        UpdateRefrigeratorButtons(); // Àç·á°¡ Ãß°¡µÇ¾úÀ¸¹Ç·Î ¹öÆ° ¾÷µ¥ÀÌÆ®
-    }
+//         SaveIngredients();
+//         UpdateRefrigeratorButtons(); // ï¿½ï¿½á°¡ ï¿½ß°ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
+//     }
 
-    // Àç·á °³¼ö °¨¼Ò (»ç¿ë)
-    public bool UseIngredient(int ingredientIndex)
-    {
-        if (ingredientCounts.ContainsKey(ingredientIndex) && ingredientCounts[ingredientIndex] > 0)
-        {
-            ingredientCounts[ingredientIndex]--;
-            SaveIngredients();
-            UpdateRefrigeratorButtons(); // Àç·á°¡ °¨¼ÒÇßÀ¸¹Ç·Î ¹öÆ° ¾÷µ¥ÀÌÆ®
-            return true;
-        }
-        return false;
-    }
+//     // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½)
+//     public bool UseIngredient(int ingredientIndex)
+//     {
+//         if (ingredientCounts.ContainsKey(ingredientIndex) && ingredientCounts[ingredientIndex] > 0)
+//         {
+//             ingredientCounts[ingredientIndex]--;
+//             SaveIngredients();
+//             UpdateRefrigeratorButtons(); // ï¿½ï¿½á°¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
+//             return true;
+//         }
+//         return false;
+//     }
 
-    // Àç·á ¼ÒÁö ¿©ºÎ
-    public bool HasIngredient(int ingredientIndex)
-    {
-        return ingredientCounts.ContainsKey(ingredientIndex) && ingredientCounts[ingredientIndex] > 0;
-    }
+//     // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//     public bool HasIngredient(int ingredientIndex)
+//     {
+//         return ingredientCounts.ContainsKey(ingredientIndex) && ingredientCounts[ingredientIndex] > 0;
+//     }
 
-    // ¿µ¾î ÀÌ¸§(ename)À¸·Î ÀÎµ¦½º Ã£±â
-    public int GetIngredientIndexFromEname(string ename)
-    {
-        ename = ename.Trim().ToLower();
-        Debug.Log($"Searching for Ingredient: '{ename}'");
+//     // ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½(ename)ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½ Ã£ï¿½ï¿½
+//     public int GetIngredientIndexFromEname(string ename)
+//     {
+//         ename = ename.Trim().ToLower();
+//         Debug.Log($"Searching for Ingredient: '{ename}'");
 
-        foreach (var ingredient in ingreList)
-        {
-            if (ingredient.ename == ename) // ename ±âÁØÀ¸·Î Á¶È¸
-            {
-                return ingredient.index;
-            }
-        }
+//         foreach (var ingredient in ingreList)
+//         {
+//             if (ingredient.ename == ename) // ename ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¸
+//             {
+//                 return ingredient.index;
+//             }
+//         }
 
-        //Debug.LogError($"GetIngredientIndexFromEname: Àç·á ¿µ¾î ÀÌ¸§ '{ename}'À» Ã£À» ¼ö ¾ø½À´Ï´Ù. ÇöÀç ingreListÀÇ ename ¸ñ·Ï: ");
-        /*foreach (var ingredient in ingreList)
-        {
-            Debug.Log($"- {ingredient.ename}");
-        }*/
+//         //Debug.LogError($"GetIngredientIndexFromEname: ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ '{ename}'ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ingreListï¿½ï¿½ ename ï¿½ï¿½ï¿½: ");
+//         /*foreach (var ingredient in ingreList)
+//         {
+//             Debug.Log($"- {ingredient.ename}");
+//         }*/
 
-        return -1;
-    }
+//         return -1;
+//     }
 
-    // ÀÎµ¦½º·Î Àç·á ÀÌ¸§ Ã£±â
-    public string GetIngredientEname(int index)
-    {
-        foreach (var ingredient in ingreList)
-        {
-            if (ingredient.index == index)
-            {
-                return ingredient.ename;
-            }
-        }
-        Debug.LogError($"GetIngredientEname: Àç·á ÀÎµ¦½º '{index}'À» Ã£À» ¼ö ¾ø½À´Ï´Ù.");
-        return null;
-    }
+//     // ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ Ã£ï¿½ï¿½
+//     public string GetIngredientEname(int index)
+//     {
+//         foreach (var ingredient in ingreList)
+//         {
+//             if (ingredient.index == index)
+//             {
+//                 return ingredient.ename;
+//             }
+//         }
+//         Debug.LogError($"GetIngredientEname: ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½ '{index}'ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+//         return null;
+//     }
 
-    // ÇöÀç ¼ÒÁöÇÑ Àç·á ¸ñ·Ï Ãâ·Â
-    private void PrintCurrentInventory()
-    {
-        Debug.Log("ÇöÀç ¼ÒÁöÇÑ Àç·á:");
-        foreach (var ingredient in ingredientCounts)
-        {
-            string ename = GetIngredientEname(ingredient.Key);
-            Debug.Log($"- {ename} ({ingredient.Key}): {ingredient.Value}°³");
-        }
-    }
+//     // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+//     private void PrintCurrentInventory()
+//     {
+//         Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½:");
+//         foreach (var ingredient in ingredientCounts)
+//         {
+//             string ename = GetIngredientEname(ingredient.Key);
+//             Debug.Log($"- {ename} ({ingredient.Key}): {ingredient.Value}ï¿½ï¿½");
+//         }
+//     }
 
-    private void PrintIngredientList()
-    {
-        Debug.Log("ÇöÀç ingreListÀÇ Àç·á ¸ñ·Ï:");
-        foreach (var ingredient in ingreList)
-        {
-            Debug.Log($"- Index: {ingredient.index}, Name: {ingredient.name}, eName: {ingredient.ename}");
-        }
-    }
-}
+//     private void PrintIngredientList()
+//     {
+//         Debug.Log("ï¿½ï¿½ï¿½ï¿½ ingreListï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½:");
+//         foreach (var ingredient in ingreList)
+//         {
+//             Debug.Log($"- Index: {ingredient.index}, Name: {ingredient.name}, eName: {ingredient.ename}");
+//         }
+//     }
+// }
