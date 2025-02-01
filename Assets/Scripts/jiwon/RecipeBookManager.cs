@@ -32,9 +32,12 @@ public class RecipeBookManager : MonoBehaviour
     private string currentCategoryKey;
     private int currentIndex;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private int currentDate;
     private int categoriesToShow;
     private List<bool> categoryAvailability;
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 
@@ -194,6 +197,7 @@ public class RecipeBookManager : MonoBehaviour
         // 레시피 목록에서 카테고리만 추출하여 고유한 리스트로 저장
         categoryList = recipes.Select(recipe => recipe.category).Distinct().ToList();
 <<<<<<< HEAD
+<<<<<<< HEAD
         categoriesToShow = Math.Min(currentDate * 2, categoryList.Count);
         Debug.Log(currentDate);
         Debug.Log(categoriesToShow);
@@ -212,6 +216,8 @@ public class RecipeBookManager : MonoBehaviour
             }
         }
         Debug.Log(string.Join(", ", categoryAvailability.Select(b => b.ToString()).ToArray()));
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 

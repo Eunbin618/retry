@@ -123,7 +123,11 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &28734044
+=======
+--- !u!1 &35806164
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &35806164
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -135,6 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 28734048}
   - component: {fileID: 28734047}
   - component: {fileID: 28734046}
@@ -142,17 +147,23 @@ GameObject:
   m_Layer: 5
   m_Name: SaveButton
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 35806165}
   - component: {fileID: 35806167}
   - component: {fileID: 35806166}
   m_Layer: 5
   m_Name: Handle
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &28734045
 MonoBehaviour:
@@ -252,13 +263,20 @@ CanvasRenderer:
 =======
 --- !u!224 &35806165
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+--- !u!224 &35806165
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 28734044}
+=======
+  m_GameObject: {fileID: 35806164}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 35806164}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -267,6 +285,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 425508134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -316,6 +335,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35991990
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Father: {fileID: 369821141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -324,12 +345,16 @@ RectTransform:
   m_SizeDelta: {x: 29, y: 13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35806166
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 35991988}
   m_Enabled: 1
@@ -391,6 +416,9 @@ MonoBehaviour:
 =======
   m_GameObject: {fileID: 35806164}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_GameObject: {fileID: 35806164}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -405,7 +433,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: e873e19b9c834744f993f03facb498b7, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: f7e390a2a2b52584cbdbcc75d7773362, type: 3}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Sprite: {fileID: 21300000, guid: f7e390a2a2b52584cbdbcc75d7773362, type: 3}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -419,7 +451,11 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &35991992
+=======
+--- !u!222 &35806167
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &35806167
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -429,7 +465,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 35991988}
+=======
+  m_GameObject: {fileID: 35806164}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 35806164}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -530,9 +570,13 @@ RectTransform:
   m_Children:
   - {fileID: 322428708}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 744898743}
   - {fileID: 2106670469}
   - {fileID: 425508134}
+=======
+  - {fileID: 1658699082}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   - {fileID: 1658699082}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -551,7 +595,11 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &39801106
+=======
+--- !u!1 &51446249
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &51446249
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -563,8 +611,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 39801107}
   - component: {fileID: 39801108}
+=======
+  - component: {fileID: 51446250}
+  - component: {fileID: 51446252}
+  - component: {fileID: 51446251}
 =======
   - component: {fileID: 51446250}
   - component: {fileID: 51446252}
@@ -589,6 +642,94 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 434453111}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -5, y: 0}
+  m_SizeDelta: {x: 29, y: 13}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &51446251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51446249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f7e390a2a2b52584cbdbcc75d7773362, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &51446252
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51446249}
+  m_CullTransparentMesh: 1
+--- !u!1 &105088440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105088441}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!224 &51446250
+=======
+--- !u!224 &105088441
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 51446249}
+=======
+  m_GameObject: {fileID: 105088440}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
+  m_Children: []
+  m_Father: {fileID: 434453111}
+=======
+  m_Children:
+  - {fileID: 626815053}
+  m_Father: {fileID: 1166661381}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
@@ -1271,7 +1412,11 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ce4798ca90fed94bb113456b7517988, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &145369877
+=======
+--- !u!1 &191051190
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &191051190
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -1283,13 +1428,19 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 145369878}
   - component: {fileID: 145369879}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 191051191}
   - component: {fileID: 191051194}
   - component: {fileID: 191051193}
   - component: {fileID: 191051192}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Layer: 5
   m_Name: NotificationToggle
@@ -1299,7 +1450,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &145369878
+=======
+--- !u!224 &191051191
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &191051191
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -1309,7 +1464,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 145369877}
+=======
+  m_GameObject: {fileID: 191051190}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 191051190}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -1324,6 +1483,9 @@ RectTransform:
 =======
   m_Children: []
   m_Father: {fileID: 1658699082}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1332,7 +1494,11 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &145369879
+=======
+--- !u!114 &191051192
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!114 &191051192
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -1342,11 +1508,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 145369877}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 191051190}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1383,6 +1552,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetGraphic: {fileID: 589891159}
   toggleTransition: 1
   graphic: {fileID: 100502578}
@@ -1392,6 +1562,8 @@ MonoBehaviour:
       m_Calls: []
   m_IsOn: 0
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TargetGraphic: {fileID: 191051193}
   m_OnClick:
     m_PersistentCalls:
@@ -1434,6 +1606,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191051190}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!224 &227622332 stripped
 RectTransform:
@@ -1441,7 +1616,10 @@ RectTransform:
   m_PrefabInstance: {fileID: 1953614696}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &231714214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,6 +1829,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245553172}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &287443427
 GameObject:
@@ -1701,7 +1882,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 287443427}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &308337575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,6 +2127,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314016931}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &322428707
 GameObject:
@@ -2306,7 +2493,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 339853702}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &340962594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,7 +2784,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 395431448}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &425508133
+=======
+--- !u!1 &434453110
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &434453110
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -2606,6 +2800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 425508134}
   - component: {fileID: 425508136}
   - component: {fileID: 425508135}
@@ -2616,13 +2811,23 @@ GameObject:
   m_Layer: 5
   m_Name: Handle Slide Area
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 434453111}
+  m_Layer: 5
+  m_Name: Handle Slide Area
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 0
 --- !u!224 &425508134
+=======
+  m_IsActive: 1
+--- !u!224 &434453111
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_IsActive: 1
 --- !u!224 &434453111
@@ -2633,7 +2838,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 425508133}
+=======
+  m_GameObject: {fileID: 434453110}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 434453110}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -2642,6 +2851,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 1468829332}
   - {fileID: 1295679773}
@@ -2653,10 +2863,15 @@ RectTransform:
   - {fileID: 51446250}
   m_Father: {fileID: 2003388372}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - {fileID: 51446250}
+  m_Father: {fileID: 2003388372}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2698,6 +2913,10 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425508133}
   m_CullTransparentMesh: 1
+=======
+  m_SizeDelta: {x: -20, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2794,6 +3013,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &464421420
 GameObject:
@@ -2918,6 +3138,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!1 &475450567
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &495767420
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 GameObject:
@@ -2988,6 +3210,9 @@ GameObject:
   - component: {fileID: 558067204}
   - component: {fileID: 558067206}
   - component: {fileID: 558067205}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Layer: 5
   m_Name: GameSettingText
@@ -2997,7 +3222,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &475450568
+=======
+--- !u!224 &558067204
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &558067204
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3007,7 +3236,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 475450567}
+=======
+  m_GameObject: {fileID: 558067203}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 558067203}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3016,21 +3249,34 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 945605037}
+=======
+  m_Children: []
+  m_Father: {fileID: 857682201}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -100, y: 50}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!114 &475450569
+=======
+--- !u!114 &558067205
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 475450567}
+=======
+  m_GameObject: {fileID: 558067203}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -3113,12 +3359,17 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
 --- !u!222 &475450570
+=======
+--- !u!222 &558067206
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 475450567}
   m_CullTransparentMesh: 1
 --- !u!1 &480542156
@@ -3278,6 +3529,11 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!1 &565688420
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_GameObject: {fileID: 558067203}
+  m_CullTransparentMesh: 1
+--- !u!1 &565688420
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3285,6 +3541,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 495767422}
   - component: {fileID: 495767421}
@@ -3397,12 +3654,17 @@ GameObject:
   m_Layer: 5
   m_Name: LaguageButton
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 565688421}
   - component: {fileID: 565688424}
   - component: {fileID: 565688423}
   - component: {fileID: 565688422}
   m_Layer: 5
   m_Name: GuestButton
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3410,7 +3672,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &540395227
+=======
+--- !u!224 &565688421
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &565688421
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3420,7 +3686,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 540395226}
+=======
+  m_GameObject: {fileID: 565688420}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 565688420}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3429,6 +3699,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 1271233114}
   m_Father: {fileID: 1120479162}
@@ -3440,6 +3711,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &540395228
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - {fileID: 969782578}
   m_Father: {fileID: 386553303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3449,6 +3722,9 @@ RectTransform:
   m_SizeDelta: {x: 258, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565688422
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3456,7 +3732,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 540395226}
+=======
+  m_GameObject: {fileID: 565688420}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 565688420}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3493,6 +3773,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Interactable: 0
   m_TargetGraphic: {fileID: 540395229}
   m_OnClick:
@@ -3500,12 +3781,17 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &540395229
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Interactable: 1
   m_TargetGraphic: {fileID: 565688423}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &565688423
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3513,7 +3799,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 540395226}
+=======
+  m_GameObject: {fileID: 565688420}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 565688420}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3531,7 +3821,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 109520360555763498806ae6b8c117f5, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: be830a01af301b641aa8884c0d75d284, type: 3}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Sprite: {fileID: 21300000, guid: be830a01af301b641aa8884c0d75d284, type: 3}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3545,7 +3839,11 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &540395230
+=======
+--- !u!222 &565688424
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &565688424
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3554,6 +3852,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 540395226}
   m_CullTransparentMesh: 1
@@ -3769,6 +4068,9 @@ CanvasRenderer:
 =======
   m_GameObject: {fileID: 565688420}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_GameObject: {fileID: 565688420}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_CullTransparentMesh: 1
 --- !u!1 &606369794
 GameObject:
@@ -3848,7 +4150,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 606369794}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &610641905
+=======
+--- !u!1 &626052482
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &626052482
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -3859,6 +4165,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 610641906}
   - component: {fileID: 610641908}
@@ -4209,42 +4516,158 @@ GameObject:
   - component: {fileID: 618387081}
   - component: {fileID: 618387083}
   - component: {fileID: 618387082}
+=======
+  - component: {fileID: 626052483}
+  - component: {fileID: 626052484}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: EffectVolumeSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &618387081
+=======
+--- !u!224 &626052483
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 618387080}
+=======
+  m_GameObject: {fileID: 626052482}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 763930574}
+=======
+  m_Children:
+  - {fileID: 1807433861}
+  - {fileID: 2069317826}
+  - {fileID: 369821141}
+  m_Father: {fileID: 314016932}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 152, y: -107}
+  m_SizeDelta: {x: 160, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!114 &618387082
+=======
+--- !u!114 &626052484
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 618387080}
+=======
+  m_GameObject: {fileID: 626052482}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 35806166}
+  m_FillRect: {fileID: 231714215}
+  m_HandleRect: {fileID: 35806165}
+  m_Direction: 0
+  m_MinValue: 0
+  m_MaxValue: 1
+  m_WholeNumbers: 0
+  m_Value: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &626815052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626815053}
+  - component: {fileID: 626815055}
+  - component: {fileID: 626815054}
+  m_Layer: 5
+  m_Name: Fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &626815053
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626815052}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 105088441}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &626815054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626815052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -4255,6 +4678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_text: "\uAC8C\uC2A4\uD2B8 \uB85C\uADF8\uC778"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
@@ -4326,6 +4750,8 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &618387083
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Sprite: {fileID: 21300000, guid: 20a6aa9890afdc744817bb393e49efd5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -4337,6 +4763,9 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &626815055
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4344,9 +4773,15 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 618387080}
   m_CullTransparentMesh: 1
 --- !u!1 &681403810
+=======
+  m_GameObject: {fileID: 626815052}
+  m_CullTransparentMesh: 1
+--- !u!1 &666695821
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 626815052}
   m_CullTransparentMesh: 1
@@ -4360,17 +4795,23 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 681403811}
   - component: {fileID: 681403813}
   - component: {fileID: 681403812}
   m_Layer: 5
   m_Name: Background
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 666695822}
   - component: {fileID: 666695824}
   - component: {fileID: 666695823}
   m_Layer: 5
   m_Name: SettingPanel
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4378,7 +4819,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &681403811
+=======
+--- !u!224 &666695822
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &666695822
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4388,7 +4833,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 681403810}
+=======
+  m_GameObject: {fileID: 666695821}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 666695821}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4396,6 +4845,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 39801107}
@@ -4407,6 +4857,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681403812
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Children:
   - {fileID: 1868847084}
   - {fileID: 386553303}
@@ -4420,6 +4872,9 @@ RectTransform:
   m_SizeDelta: {x: 550, y: 616}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666695823
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4427,7 +4882,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 681403810}
+=======
+  m_GameObject: {fileID: 666695821}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 666695821}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4445,7 +4904,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 0033f0f78ea2bb8499041295443cde0b, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 69ffc46c422afb9478f9f659b084eade, type: 3}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Sprite: {fileID: 21300000, guid: 69ffc46c422afb9478f9f659b084eade, type: 3}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4459,7 +4922,11 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &681403813
+=======
+--- !u!222 &666695824
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &666695824
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4469,7 +4936,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 681403810}
+=======
+  m_GameObject: {fileID: 666695821}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 666695821}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4595,7 +5066,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 689622893}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &706172642
+=======
+--- !u!1 &690967111
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &690967111
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4607,25 +5082,36 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 706172643}
   - component: {fileID: 706172645}
   - component: {fileID: 706172644}
   m_Layer: 5
   m_Name: AccountPanel
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 690967112}
   - component: {fileID: 690967114}
   - component: {fileID: 690967113}
   m_Layer: 5
   m_Name: Text (TMP)
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 0
 --- !u!224 &706172643
+=======
+  m_IsActive: 1
+--- !u!224 &690967112
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_IsActive: 1
 --- !u!224 &690967112
@@ -4635,6 +5121,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 706172642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -4648,6 +5135,8 @@ RectTransform:
   - {fileID: 480542157}
   m_Father: {fileID: 1468829332}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 690967111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4655,15 +5144,24 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 329650712}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SizeDelta: {x: -450, y: -516}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &706172644
+=======
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &690967113
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4675,6 +5173,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 706172642}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4684,6 +5183,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 690967111}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4692,6 +5193,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -4699,6 +5203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
@@ -4712,6 +5217,8 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &706172645
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_text: "\uD55C\uAD6D\uC5B4"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
@@ -4782,6 +5289,9 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &690967114
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4789,7 +5299,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 706172642}
+=======
+  m_GameObject: {fileID: 690967111}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 690967111}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4863,7 +5377,11 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &722627384
+=======
+--- !u!1 &712938445
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &712938445
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4874,6 +5392,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 722627385}
   - component: {fileID: 722627387}
@@ -4886,13 +5405,23 @@ GameObject:
   m_Layer: 5
   m_Name: NotificationToggle
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 712938446}
+  - component: {fileID: 712938447}
+  m_Layer: 5
+  m_Name: NotificationToggle
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &722627385
+=======
+--- !u!224 &712938446
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &712938446
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -4901,6 +5430,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 722627384}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -4917,6 +5447,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722627386
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 712938445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4932,12 +5464,16 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &712938447
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 722627384}
   m_Enabled: 1
@@ -5025,6 +5561,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_GameObject: {fileID: 712938445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -5055,6 +5597,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_TargetGraphic: {fileID: 744898745}
   m_OnClick:
@@ -5219,6 +5762,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763930573}
   m_CullTransparentMesh: 1
+=======
+  m_TargetGraphic: {fileID: 871519645}
+  toggleTransition: 1
+  graphic: {fileID: 0}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_IsOn: 0
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_TargetGraphic: {fileID: 871519645}
   toggleTransition: 1
@@ -5534,12 +6087,16 @@ CanvasRenderer:
   m_GameObject: {fileID: 793179837}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &809934771 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5406327713550614628, guid: 7ce4798ca90fed94bb113456b7517988, type: 3}
   m_PrefabInstance: {fileID: 4325664043591118363}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &838874901
+=======
+--- !u!1 &801863158
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &801863158
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -5550,6 +6107,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 838874902}
   - component: {fileID: 838874904}
@@ -5564,13 +6122,25 @@ GameObject:
   m_Layer: 5
   m_Name: SettingButton
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 801863159}
+  - component: {fileID: 801863162}
+  - component: {fileID: 801863161}
+  - component: {fileID: 801863160}
+  m_Layer: 5
+  m_Name: SettingButton
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &838874902
+=======
+--- !u!224 &801863159
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &801863159
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -5580,8 +6150,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 838874901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+  m_GameObject: {fileID: 801863158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 801863158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -5590,6 +6165,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 1120479162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5609,14 +6185,27 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801863160
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_Father: {fileID: 38470188}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 290, y: 570}
+  m_SizeDelta: {x: 89, y: 89}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &801863160
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 838874901}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 801863158}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -5749,6 +6338,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803016441}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -5764,7 +6356,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_text: "\uC900\uBE44 \uC911 ..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
@@ -5904,6 +6499,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_text: "\uC54C\uB9BC"
   m_isRightToLeft: 0
@@ -5975,7 +6573,11 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &838874904
+=======
+--- !u!222 &838161753
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &838161753
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -5985,7 +6587,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 838874901}
+=======
+  m_GameObject: {fileID: 838161750}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 838161750}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6200,7 +6806,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 849403083}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &908302698
+=======
+--- !u!1 &857682200
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &857682200
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6212,9 +6822,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 908302699}
   m_Layer: 5
   m_Name: Handle Slide Area
+=======
+  - component: {fileID: 857682201}
+  - component: {fileID: 857682203}
+  - component: {fileID: 857682202}
+  m_Layer: 5
+  m_Name: SavePanel
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   - component: {fileID: 857682201}
   - component: {fileID: 857682203}
@@ -6227,8 +6845,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!224 &908302699
+=======
+  m_IsActive: 0
+--- !u!224 &857682201
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_IsActive: 0
 --- !u!224 &857682201
@@ -6239,8 +6862,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 908302698}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_GameObject: {fileID: 857682200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 857682200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -6250,8 +6878,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1049151213}
   m_Father: {fileID: 39801107}
+=======
+  - {fileID: 558067204}
+  - {fileID: 1993456022}
+  m_Father: {fileID: 666695822}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   - {fileID: 558067204}
   - {fileID: 1993456022}
@@ -6261,6 +6895,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6309,13 +6944,21 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857682202
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &857682202
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 945605036}
+=======
+  m_GameObject: {fileID: 857682200}
 =======
   m_GameObject: {fileID: 857682200}
   m_Enabled: 1
@@ -6541,10 +7184,223 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &857682203
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857682200}
+  m_CullTransparentMesh: 1
+--- !u!1 &867740372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867740373}
+  - component: {fileID: 867740375}
+  - component: {fileID: 867740374}
+  m_Layer: 5
+  m_Name: system
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &867740373
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867740372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 314016932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -5}
+  m_SizeDelta: {x: 177.3719, y: 40.9487}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &867740374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867740372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+<<<<<<< HEAD
+  m_text: "\uC2DC\uC2A4\uD15C"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
+  m_sharedMaterial: {fileID: 68952158446488501, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &867740375
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867740372}
+  m_CullTransparentMesh: 1
+--- !u!1 &871519643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871519644}
+  - component: {fileID: 871519646}
+  - component: {fileID: 871519645}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &871519644
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871519643}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 712938446}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 81, y: 37}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &871519645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871519643}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
 <<<<<<< HEAD
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Sprite: {fileID: 21300000, guid: 8e23e6df57ca66f4ebbb35141bba545e, type: 3}
   m_Type: 0
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6557,7 +7413,11 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &945605039
+=======
+--- !u!222 &871519646
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &871519646
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6567,9 +7427,15 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 945605036}
   m_CullTransparentMesh: 1
 --- !u!1 &959703074
+=======
+  m_GameObject: {fileID: 871519643}
+  m_CullTransparentMesh: 1
+--- !u!1 &937847846
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 871519643}
   m_CullTransparentMesh: 1
@@ -6583,18 +7449,24 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 959703075}
   - component: {fileID: 959703077}
   - component: {fileID: 959703076}
   m_Layer: 5
   m_Name: Text (TMP)
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 937847847}
   - component: {fileID: 937847850}
   - component: {fileID: 937847849}
   - component: {fileID: 937847848}
   m_Layer: 5
   m_Name: SaveButton
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6602,7 +7474,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &959703075
+=======
+--- !u!224 &937847847
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &937847847
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6612,8 +7488,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 959703074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+  m_GameObject: {fileID: 937847846}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 937847846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -6622,6 +7503,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 35991989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6632,6 +7514,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959703076
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Father: {fileID: 1658699082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6684,6 +7568,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &937847849
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6691,15 +7578,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 959703074}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 937847846}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Name: 
   m_EditorClassIdentifier: 
@@ -6711,6 +7604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_text: "\uC800\uC7A5"
   m_isRightToLeft: 0
@@ -6783,6 +7677,8 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &959703077
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Sprite: {fileID: 21300000, guid: 3bee16f8b8b3be844a058cd8a9e3010a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -6794,6 +7690,9 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &937847850
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6801,9 +7700,15 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 959703074}
   m_CullTransparentMesh: 1
 --- !u!1 &1007494488
+=======
+  m_GameObject: {fileID: 937847846}
+  m_CullTransparentMesh: 1
+--- !u!1 &969782577
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 937847846}
   m_CullTransparentMesh: 1
@@ -6817,9 +7722,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1007494489}
   - component: {fileID: 1007494491}
   - component: {fileID: 1007494490}
+=======
+  - component: {fileID: 969782578}
+  - component: {fileID: 969782580}
+  - component: {fileID: 969782579}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   - component: {fileID: 969782578}
   - component: {fileID: 969782580}
@@ -6833,7 +7744,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1007494489
+=======
+--- !u!224 &969782578
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &969782578
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6843,7 +7758,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1007494488}
+=======
+  m_GameObject: {fileID: 969782577}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 969782577}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6853,7 +7772,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 1120479162}
+=======
+  m_Father: {fileID: 565688421}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Father: {fileID: 565688421}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6864,7 +7787,11 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1007494490
+=======
+--- !u!114 &969782579
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!114 &969782579
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6874,7 +7801,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1007494488}
+=======
+  m_GameObject: {fileID: 969782577}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 969782577}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6961,7 +7892,11 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1007494491
+=======
+--- !u!222 &969782580
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &969782580
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -6971,11 +7906,16 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1007494488}
   m_CullTransparentMesh: 1
 =======
   m_GameObject: {fileID: 969782577}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 969782577}
+  m_CullTransparentMesh: 1
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &1003754251
 GameObject:
   m_ObjectHideFlags: 0
@@ -7027,6 +7967,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &1027222270
 GameObject:
@@ -7315,7 +8258,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1070474788}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1095554100
+=======
+--- !u!1 &1099830459
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &1099830459
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -7326,6 +8273,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1095554101}
   - component: {fileID: 1095554103}
@@ -7339,13 +8287,24 @@ GameObject:
   m_Layer: 5
   m_Name: effect
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 1099830460}
+  - component: {fileID: 1099830462}
+  - component: {fileID: 1099830461}
+  m_Layer: 5
+  m_Name: effect
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1095554101
+=======
+--- !u!224 &1099830460
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &1099830460
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -7355,9 +8314,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1095554100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 1099830459}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -7365,6 +8327,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 618109382}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7384,13 +8347,27 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099830461
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_Father: {fileID: 314016932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: -110}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1099830461
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1095554100}
+=======
+  m_GameObject: {fileID: 1099830459}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1099830459}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -7408,6 +8385,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 0033f0f78ea2bb8499041295443cde0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -7420,6 +8398,8 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1095554103
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_text: "\uD6A8\uACFC\uC74C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
@@ -7490,6 +8470,9 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1099830462
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7497,7 +8480,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1095554100}
+=======
+  m_GameObject: {fileID: 1099830459}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1099830459}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -7631,6 +8618,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 1756563720}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1144215837
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 GameObject:
   m_ObjectHideFlags: 0
@@ -7639,6 +8629,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1120479162}
   - component: {fileID: 1120479165}
@@ -7653,13 +8644,24 @@ GameObject:
   m_Layer: 5
   m_Name: Background
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 1144215838}
+  - component: {fileID: 1144215840}
+  - component: {fileID: 1144215839}
+  m_Layer: 5
+  m_Name: Background
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1120479162
+=======
+--- !u!224 &1144215838
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &1144215838
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -7669,7 +8671,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1120479161}
+=======
+  m_GameObject: {fileID: 1144215837}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1144215837}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -7677,6 +8683,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Children:
   - {fileID: 618109382}
@@ -7697,6 +8704,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120479163
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Children: []
   m_Father: {fileID: 1166661381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7706,12 +8715,16 @@ RectTransform:
   m_SizeDelta: {x: 150, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144215839
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1120479161}
   m_Enabled: 1
@@ -7774,6 +8787,11 @@ RectTransform:
   m_GameObject: {fileID: 1144215837}
   m_Enabled: 1
   m_EditorHideFlags: 0
+=======
+  m_GameObject: {fileID: 1144215837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -7893,6 +8911,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &1194211027
 GameObject:
@@ -8029,7 +9050,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1194211027}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1271233113
+=======
+--- !u!1 &1198519234
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &1198519234
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8041,10 +9066,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1271233114}
   - component: {fileID: 1271233116}
   - component: {fileID: 1271233115}
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 1198519235}
   - component: {fileID: 1198519237}
   - component: {fileID: 1198519236}
@@ -8354,6 +9382,9 @@ GameObject:
   - component: {fileID: 1352450807}
   - component: {fileID: 1352450809}
   - component: {fileID: 1352450808}
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Layer: 5
   m_Name: Text (TMP)
@@ -8363,7 +9394,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1271233114
+=======
+--- !u!224 &1352450807
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &1352450807
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8373,7 +9408,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1271233113}
+=======
+  m_GameObject: {fileID: 1352450806}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1352450806}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8383,7 +9422,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 540395227}
+=======
+  m_Father: {fileID: 2124469979}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Father: {fileID: 2124469979}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8394,7 +9437,11 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1271233115
+=======
+--- !u!114 &1352450808
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!114 &1352450808
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8404,7 +9451,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1271233113}
+=======
+  m_GameObject: {fileID: 1352450806}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1352450806}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8422,7 +9473,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_text: "\uD55C\uAD6D\uC5B4"
+=======
+  m_text: "\uC5F0\uB3D9 \uB85C\uADF8\uC778"
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_text: "\uC5F0\uB3D9 \uB85C\uADF8\uC778"
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8495,7 +9550,11 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1271233116
+=======
+--- !u!222 &1352450809
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &1352450809
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8505,9 +9564,15 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1271233113}
   m_CullTransparentMesh: 1
 --- !u!1 &1295679772
+=======
+  m_GameObject: {fileID: 1352450806}
+  m_CullTransparentMesh: 1
+--- !u!1 &1388922010
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1352450806}
   m_CullTransparentMesh: 1
@@ -8520,6 +9585,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1295679773}
   - component: {fileID: 1295679775}
@@ -8534,13 +9600,24 @@ GameObject:
   m_Layer: 5
   m_Name: PreparingLang
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 1388922011}
+  - component: {fileID: 1388922013}
+  - component: {fileID: 1388922012}
+  m_Layer: 5
+  m_Name: PreparingLang
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1295679773
+=======
+--- !u!224 &1388922011
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &1388922011
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8550,7 +9627,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1295679772}
+=======
+  m_GameObject: {fileID: 1388922010}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1388922010}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8559,6 +9640,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 425508134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8573,10 +9655,19 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+=======
+  m_Father: {fileID: 314016932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_AnchoredPosition: {x: 210, y: -227}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1388922012
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8584,7 +9675,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1295679772}
+=======
+  m_GameObject: {fileID: 1388922010}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1388922010}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -8602,6 +9697,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: c8a8856eb0b80b548a5513b745e165ed, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -8614,6 +9710,8 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1295679775
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_text: "\uC900\uBE44\uC911 ..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
@@ -8684,12 +9782,16 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1388922013
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1295679772}
   m_CullTransparentMesh: 1
@@ -8895,6 +9997,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 1388922010}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 1388922010}
+  m_CullTransparentMesh: 1
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 --- !u!1 &1434641939
 GameObject:
   m_ObjectHideFlags: 0
@@ -9230,7 +10336,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1477118774}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1551534908
+=======
+--- !u!1 &1509648010
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &1509648010
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9241,6 +10351,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1551534909}
   - component: {fileID: 1551534911}
@@ -9254,13 +10365,24 @@ GameObject:
   m_Layer: 5
   m_Name: language
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 1509648011}
+  - component: {fileID: 1509648013}
+  - component: {fileID: 1509648012}
+  m_Layer: 5
+  m_Name: language
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1551534909
+=======
+--- !u!224 &1509648011
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &1509648011
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9270,7 +10392,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1551534908}
+=======
+  m_GameObject: {fileID: 1509648010}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1509648010}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9279,6 +10405,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 1120479162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9298,13 +10425,27 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1509648012
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_Father: {fileID: 314016932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -110, y: -180}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1509648012
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1551534908}
+=======
+  m_GameObject: {fileID: 1509648010}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1509648010}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9322,7 +10463,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_text: "\uD6A8\uACFC\uC74C"
+=======
+  m_text: "\uC5B8\uC5B4"
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_text: "\uC5B8\uC5B4"
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9353,8 +10498,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_fontSize: 45
   m_fontSizeBase: 45
+=======
+  m_fontSize: 50
+  m_fontSizeBase: 50
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_fontSize: 50
   m_fontSizeBase: 50
@@ -9400,7 +10550,11 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1551534911
+=======
+--- !u!222 &1509648013
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &1509648013
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9410,7 +10564,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1551534908}
+=======
+  m_GameObject: {fileID: 1509648010}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1509648010}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9453,7 +10611,11 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1666276627
+=======
+--- !u!1 &1658699081
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &1658699081
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9465,25 +10627,36 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1666276628}
   - component: {fileID: 1666276630}
   - component: {fileID: 1666276629}
   m_Layer: 5
   m_Name: Fill
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   - component: {fileID: 1658699082}
   - component: {fileID: 1658699084}
   - component: {fileID: 1658699083}
   m_Layer: 5
   m_Name: SettingParentPanel
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!224 &1666276628
+=======
+  m_IsActive: 0
+--- !u!224 &1658699082
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_IsActive: 0
 --- !u!224 &1658699082
@@ -9494,7 +10667,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1666276627}
+=======
+  m_GameObject: {fileID: 1658699081}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1658699081}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9502,6 +10679,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 1356494580}
@@ -9513,6 +10691,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1666276629
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_Children:
   - {fileID: 666695822}
   - {fileID: 191051191}
@@ -9526,6 +10706,9 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658699083
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9533,7 +10716,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1666276627}
+=======
+  m_GameObject: {fileID: 1658699081}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1658699081}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9544,7 +10731,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 0}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9555,8 +10746,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: be41564122089cb4eaabddaaf9ea31b1, type: 3}
   m_Type: 0
+=======
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
@@ -9570,7 +10766,11 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1666276630
+=======
+--- !u!222 &1658699084
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &1658699084
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9580,7 +10780,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1666276627}
+=======
+  m_GameObject: {fileID: 1658699081}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1658699081}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9845,7 +11049,11 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ce4798ca90fed94bb113456b7517988, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1759622131
+=======
+--- !u!1 &1807433860
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &1807433860
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9857,7 +11065,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1759622132}
+=======
+  - component: {fileID: 1807433861}
+  - component: {fileID: 1807433863}
+  - component: {fileID: 1807433862}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   - component: {fileID: 1807433861}
   - component: {fileID: 1807433863}
@@ -9871,7 +11085,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1759622132
+=======
+--- !u!224 &1807433861
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &1807433861
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9880,6 +11098,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1759622131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -9923,13 +11142,20 @@ RectTransform:
 =======
   m_GameObject: {fileID: 1807433860}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_GameObject: {fileID: 1807433860}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 1759622132}
+=======
+  m_Father: {fileID: 626052483}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Father: {fileID: 626052483}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9940,7 +11166,11 @@ RectTransform:
   m_SizeDelta: {x: 29, y: 13}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1796160913
+=======
+--- !u!114 &1807433862
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!114 &1807433862
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9950,7 +11180,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1796160911}
+=======
+  m_GameObject: {fileID: 1807433860}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1807433860}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9968,7 +11202,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: eca4779db16992945b5713e5648965a4, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: a7b668dfe0e0b494083033bda4bde8d3, type: 3}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Sprite: {fileID: 21300000, guid: a7b668dfe0e0b494083033bda4bde8d3, type: 3}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9982,7 +11220,11 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1796160914
+=======
+--- !u!222 &1807433863
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &1807433863
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -9992,7 +11234,11 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1796160911}
+=======
+  m_GameObject: {fileID: 1807433860}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1807433860}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -10725,6 +11971,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1975250150}
   m_CullTransparentMesh: 1
 --- !u!1 &1985920501
+<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10860,6 +12107,212 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
   m_GameObject: {fileID: 2032051018}
+=======
+  m_GameObject: {fileID: 1993456021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1993456024}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1993456024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993456021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1993456025
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993456021}
+  m_CullTransparentMesh: 1
+--- !u!1 &2003388371
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 2003388372}
+  - component: {fileID: 2003388373}
+  m_Layer: 5
+  m_Name: SystemVolumeSlider
+=======
+  - component: {fileID: 1985920503}
+  - component: {fileID: 1985920502}
+  m_Layer: 0
+  m_Name: UiManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1985920502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985920501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bedcce2b68f87bc46bfc6b406337c045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrderBook: {fileID: 1704805154}
+  order_button: {fileID: 339853704}
+  RecipeBook: {fileID: 784770406}
+  RecipeButton: {fileID: 1951779734}
+  calendarText: {fileID: 838943963}
+  customFont: {fileID: 11400000, guid: 05c49a228f958ff4bbc5c800c316a3d1, type: 2}
+--- !u!4 &1985920503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985920501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 377.4146, y: 634.1955, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1993456021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1993456022}
+  - component: {fileID: 1993456025}
+  - component: {fileID: 1993456024}
+  - component: {fileID: 1993456023}
+  m_Layer: 5
+  m_Name: SavePointButton
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!224 &2003388372
+=======
+--- !u!224 &1993456022
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 2003388371}
+=======
+  m_GameObject: {fileID: 1993456021}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+<<<<<<< HEAD
+  - {fileID: 1198519235}
+  - {fileID: 1283108334}
+  - {fileID: 434453111}
+  m_Father: {fileID: 314016932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 148, y: -10}
+  m_SizeDelta: {x: 150, y: 15}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2003388373
+=======
+  - {fileID: 1918004390}
+  m_Father: {fileID: 857682201}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -70}
+  m_SizeDelta: {x: 250, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1993456023
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 2003388371}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 1993456021}
   m_Enabled: 1
@@ -11228,7 +12681,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 2085557633}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2106670468
+=======
+--- !u!1 &2124469978
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!1 &2124469978
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -11239,6 +12696,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 2106670469}
   - component: {fileID: 2106670472}
@@ -11254,13 +12712,25 @@ GameObject:
   m_Layer: 5
   m_Name: GpgsButton
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  - component: {fileID: 2124469979}
+  - component: {fileID: 2124469982}
+  - component: {fileID: 2124469981}
+  - component: {fileID: 2124469980}
+  m_Layer: 5
+  m_Name: GpgsButton
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &2106670469
+=======
+--- !u!224 &2124469979
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!224 &2124469979
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -11269,6 +12739,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 2106670468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -11301,13 +12772,34 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124469980
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+  m_GameObject: {fileID: 2124469978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1352450807}
+  m_Father: {fileID: 386553303}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: 258, y: 71}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2124469980
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2106670468}
+=======
+  m_GameObject: {fileID: 2124469978}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 2124469978}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -11345,6 +12837,7 @@ MonoBehaviour:
     m_DisabledTrigger: Disabled
   m_Interactable: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetGraphic: {fileID: 2106670471}
   m_OnClick:
     m_PersistentCalls:
@@ -11375,11 +12868,16 @@ MonoBehaviour:
         m_CallState: 2
 --- !u!114 &2106670471
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_TargetGraphic: {fileID: 2124469981}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &2124469981
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11387,7 +12885,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2106670468}
+=======
+  m_GameObject: {fileID: 2124469978}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_GameObject: {fileID: 2124469978}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -11405,7 +12907,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 0bda3e7c4c6ef6f47a28c38ae18c993c, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: be830a01af301b641aa8884c0d75d284, type: 3}
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
   m_Sprite: {fileID: 21300000, guid: be830a01af301b641aa8884c0d75d284, type: 3}
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -11419,7 +12925,11 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &2106670472
+=======
+--- !u!222 &2124469982
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 --- !u!222 &2124469982
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -11428,6 +12938,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 2106670468}
   m_CullTransparentMesh: 1
@@ -11552,6 +13063,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 =======
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
   m_GameObject: {fileID: 2124469978}
   m_CullTransparentMesh: 1
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -12015,7 +13528,10 @@ SceneRoots:
   - {fileID: 1985920503}
   - {fileID: 495767422}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 511490971}
   - {fileID: 58832108}
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)

@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI; // UI 관련 네임스페이스 추가
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System;
@@ -17,10 +18,23 @@ public class UiLogicManager : MonoBehaviour
     public Button RecipeButton;
     public GameObject RecipeBookGO;
 
+=======
+using System.Collections.Generic;
+using System;
+
+public class UiManager : MonoBehaviour
+{
+    public GameObject OrderBook;  // OrderBook 패널
+    public Button order_button;    // Order 버튼
+
+    public GameObject RecipeBook;
+    public Button RecipeButton;
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 
     public TMP_Text calendarText;
     public TMP_FontAsset customFont;
 
+<<<<<<< HEAD
     public GameObject SettingButtonGO;
 
     public GameObject KitchenButtonGO;
@@ -121,6 +135,15 @@ public class UiLogicManager : MonoBehaviour
 
     public void GoKitchenScene() {
         SceneManager.LoadScene("BakingStart");
+=======
+    void Start()
+    {
+        // OrderButton 클릭 이벤트 등록
+        order_button.onClick.AddListener(OnOrderBook);
+        RecipeButton.onClick.AddListener(OnRecipeBook);
+        LoadCalendarDate();
+
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
     }
 
     void OnOrderBook()
