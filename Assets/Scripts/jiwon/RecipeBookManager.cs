@@ -31,9 +31,12 @@ public class RecipeBookManager : MonoBehaviour
     private List<string> categoryList; // 카테고리 목록
     private string currentCategoryKey;
     private int currentIndex;
+<<<<<<< HEAD
     private int currentDate;
     private int categoriesToShow;
     private List<bool> categoryAvailability;
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 
 
 
@@ -169,21 +172,6 @@ public class RecipeBookManager : MonoBehaviour
         return columns.ToArray();
     }
 
-    public void LoadCalendarDate()
-    {
-        // DataManager.Instance가 null인지 확인
-        if (DataManager.Instance == null)
-        {
-            Debug.LogError("DataManager.Instance가 null입니다! DataManager가 씬에 존재하는지 확인하세요.");
-            return;
-        }
-
-        // LoadGameData()를 통해 GameData 가져오기
-        GameData dateGD = DataManager.Instance.LoadGameData();
-        currentDate = dateGD.date;
-        Debug.Log(currentDate);
-    }
-
 
     // 목차 페이지 표시
     void DisplayTableOfContents()
@@ -205,6 +193,7 @@ public class RecipeBookManager : MonoBehaviour
 
         // 레시피 목록에서 카테고리만 추출하여 고유한 리스트로 저장
         categoryList = recipes.Select(recipe => recipe.category).Distinct().ToList();
+<<<<<<< HEAD
         categoriesToShow = Math.Min(currentDate * 2, categoryList.Count);
         Debug.Log(currentDate);
         Debug.Log(categoriesToShow);
@@ -223,6 +212,8 @@ public class RecipeBookManager : MonoBehaviour
             }
         }
         Debug.Log(string.Join(", ", categoryAvailability.Select(b => b.ToString()).ToArray()));
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 
         // 카테고리 리스트가 비어있는지 확인
         if (categoryList.Count == 0)

@@ -4,7 +4,6 @@ using UnityEngine;
 using System.IO;
 using TMPro;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Order : MonoBehaviour
 {
@@ -61,7 +60,6 @@ public class Order : MonoBehaviour
   }
     void Start()
     {
-        SceneManager.LoadScene("Main", LoadSceneMode.Additive); //기본 UI 띄우기 
         postman.SetActive(true);
         orderCheck.gameObject.SetActive(true);
         order.SetActive(true); // 주문 UI 비활성화
