@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI; // UI 관련 네임스페이스 추가
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System;
@@ -22,6 +23,8 @@ public class UiLogicManager : MonoBehaviour
 =======
 =======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 using System.Collections.Generic;
 using System;
 
@@ -33,6 +36,9 @@ public class UiManager : MonoBehaviour
     public GameObject RecipeBook;
     public Button RecipeButton;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
@@ -40,6 +46,7 @@ public class UiManager : MonoBehaviour
     public TMP_Text calendarText;
     public TMP_FontAsset customFont;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public GameObject SettingButtonGO;
@@ -145,6 +152,8 @@ public class UiManager : MonoBehaviour
 =======
 =======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
     void Start()
     {
         // OrderButton 클릭 이벤트 등록
@@ -153,6 +162,9 @@ public class UiManager : MonoBehaviour
         LoadCalendarDate();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
+=======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
 >>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)

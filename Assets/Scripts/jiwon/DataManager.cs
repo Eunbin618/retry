@@ -91,8 +91,13 @@ public class DataManager : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gameData.money = 5000;  
         gameData.ingredientNum = gameData.ingredientNum = new List<int>{0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0};
+=======
+        gameData.money = 2000;  
+        gameData.ingredientNum = new List<int>(new int[23]);
+>>>>>>> parent of 6882540 (Merge branch 'main2' into haeun_2)
 =======
         gameData.money = 2000;  
         gameData.ingredientNum = new List<int>(new int[23]);
