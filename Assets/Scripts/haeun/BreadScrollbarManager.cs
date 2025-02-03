@@ -98,10 +98,8 @@ public class BreadScrollbarManager : MonoBehaviour
         // PrintIngredients(); // 확인용
 
         orderScene.onClick.AddListener(() => {
-            SceneManager.LoadScene("Deadline");
-        });
-
-        UiLogicManager.Instance.LoadMoneyData();
+           SceneManager.LoadScene("Deadline");
+    });
     }
 
     public void AddItems()

@@ -20,7 +20,6 @@ public class UiLogicManager : MonoBehaviour
 
     public TMP_Text calendarText;
     public TextMeshProUGUI MoneyText;
-    public GameObject MoneyTextGO;
     public TMP_FontAsset customFont;
 
     public GameObject SettingButtonGO;
@@ -62,7 +61,7 @@ public class UiLogicManager : MonoBehaviour
 
 
         LoadCalendarDate();
-        LoadMoneyData();
+        // LoadMoneyData();
 
         // 씬 이름에 따라 버튼 활성화 설정
         if (currentSceneName == "order")
@@ -74,7 +73,7 @@ public class UiLogicManager : MonoBehaviour
             timePanel.SetActive(false);
             order_buttonGO.SetActive(true);
             RecipeBookGO.SetActive(true);     // 'order'씬에 가는게 목적
-            MoneyTextGO.gameObject.SetActive(true);
+
         }
 
         if (currentSceneName == "Baking 1") {
@@ -85,8 +84,6 @@ public class UiLogicManager : MonoBehaviour
             timePanel.SetActive(true);
             order_buttonGO.SetActive(false);
             RecipeBookGO.SetActive(false);
-            MoneyTextGO.gameObject.SetActive(true);
-
         }
 
         if (currentSceneName == "BakingStart") {
@@ -97,8 +94,6 @@ public class UiLogicManager : MonoBehaviour
             timePanel.SetActive(true);          
             order_buttonGO.SetActive(false);        
             RecipeBookGO.SetActive(false);  
-            MoneyTextGO.gameObject.SetActive(true);
-
         }
 
         if (currentSceneName == "Bonus") {
@@ -109,8 +104,6 @@ public class UiLogicManager : MonoBehaviour
             timePanel.SetActive(true);          
             order_buttonGO.SetActive(true);        
             RecipeBookGO.SetActive(true);
-            MoneyTextGO.gameObject.SetActive(true);
-
         }
 
         if (currentSceneName == "Deadline" || currentSceneName == "Deadline_Last") {
@@ -121,7 +114,6 @@ public class UiLogicManager : MonoBehaviour
             timePanel.SetActive(false);          
             order_buttonGO.SetActive(false);        
             RecipeBookGO.SetActive(false);
-            MoneyTextGO.gameObject.SetActive(false);
         }
 
     }

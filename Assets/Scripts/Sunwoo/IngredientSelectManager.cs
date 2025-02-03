@@ -6,18 +6,6 @@ using TMPro;
 
 public class IngredientSelectManager : MonoBehaviour
 {
-    private static IngredientSelectManager _instance;
-    public static IngredientSelectManager Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-                _instance = FindObjectOfType<IngredientSelectManager>();
-            }
-            return _instance;
-        }
-    }
     public GameObject ingredientSelectionPanel; // 재료 선택 패널
     public GameObject startIngredientPanel; // 초기 패널
     public GameObject addingIngredientPanel; // 재료 추가 패널
@@ -173,9 +161,6 @@ public class IngredientSelectManager : MonoBehaviour
 
         // 최종 점수 출력
         Debug.Log($"최종 재료 점수: {ingredientScore}/30");
-
-        PlayerPrefs.SetInt("ingreScore",ingredientScore);
-        PlayerPrefs.Save();
 
         ingredientSelectionPanel.SetActive(false);
         mixingGameManager.ActivateMixingPanel();

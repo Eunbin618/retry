@@ -5,7 +5,7 @@ using TMPro;
 
 public class MixingGameManager : MonoBehaviour
 {
-    // ï¿½Ð³ï¿½ ï¿½ï¿½ UI ï¿½ï¿½ï¿½
+    // ÆÐ³Î ¹× UI ¿ä¼Ò
     public GameObject mixingPanel;
     public GameObject startMixingPanel;
     public GameObject mixingGamePanel;
@@ -17,20 +17,20 @@ public class MixingGameManager : MonoBehaviour
     public Button startButton;
     public Button nextButton;
     public TextMeshProUGUI gameText;
-    public TextMeshProUGUI finalText; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
+    public TextMeshProUGUI finalText; // ÃÖÁ¾ Á¡¼ö Ç¥½Ã
 
-    // ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    // ÅÍÄ¡ Æ÷ÀÎÆ®¿Í ¼Õ ¾ÆÀÌÄÜ
     public GameObject handIcon;
     private Vector3 initialHandPosition = new Vector3(0, -100, 0);
     public Transform[] touchPointPositions;
     public GameObject[] touchPointImages;
 
-    // Bowl ï¿½Ì¹ï¿½ï¿½ï¿½
+    // Bowl ÀÌ¹ÌÁö
     public GameObject bowlBefore;
     public GameObject bowlAfter;
     private bool hasAnimationStarted = false;
 
-    // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+    // °ÔÀÓ ¼³Á¤
     public float pointLifetime = 1f;
     public float gameDuration = 30f;
     private float remainingTime;
@@ -40,7 +40,7 @@ public class MixingGameManager : MonoBehaviour
     private GameObject activeTouchPoint = null;
     private int previousIndex = -1;
 
-    // Mixing ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+    // Mixing ¾Ö´Ï¸ÞÀÌ¼Ç °ü·Ã
     public Image doughImage;
     public Image doughImage2;
     private Sprite[] doughSprites;
@@ -49,8 +49,6 @@ public class MixingGameManager : MonoBehaviour
     private bool isAnimating = false;
 
     public int mixingScore = 0;
-
-    // public IngredientSelectManager ingredientSelectManager;
 
     private void Start()
     {
@@ -80,7 +78,7 @@ public class MixingGameManager : MonoBehaviour
 
             if (doughSprites[i] == null)
             {
-                Debug.LogError($"ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½: {path}");
+                Debug.LogError($"¾Ö´Ï¸ÞÀÌ¼Ç ÀÌ¹ÌÁö ·Îµå ½ÇÆÐ: {path}");
             }
         }
     }
@@ -206,14 +204,11 @@ public class MixingGameManager : MonoBehaviour
         finishMixingPanel.SetActive(true);
 
         mixingScore = Mathf.RoundToInt(score / 10f);
+        Debug.Log($"¹ÝÁ× °ÔÀÓ ÃÖÁ¾ Á¡¼ö: {mixingScore}/15");
 
-        // finalTextï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
-
-        int SumIngreMixingScore = IngredientSelectManager.Instance.ingredientScore + mixingScore;
-
+        // finalText¿¡ ÃÖÁ¾ Á¡¼ö Ç¥½Ã
         finalText.gameObject.SetActive(true);
-        Debug.Log($"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: {SumIngreMixingScore}/15");
-        finalText.text = $"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: {SumIngreMixingScore} / 45";
+        finalText.text = $"ÃÖÁ¾ Á¡¼ö: {mixingScore} / 15";
     }
 
     private void Update()

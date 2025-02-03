@@ -57,7 +57,7 @@ public class Order : MonoBehaviour
         this.menu=menu;
         this.description=description;
     }
-}
+  }
     void Start()
     {
         dayChange.OnDayChange();
@@ -76,8 +76,6 @@ public class Order : MonoBehaviour
         GameData dateGD = DataManager.Instance.LoadGameData();
 
         openMenu(dateGD.date);
-
-        UiLogicManager.Instance.LoadMoneyData();
     }
 
     private void LoadDialoguesFromCSV()
