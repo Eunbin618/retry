@@ -2,9 +2,6 @@ using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 
 public class tutorial : MonoBehaviour
 {
@@ -14,7 +11,6 @@ public class tutorial : MonoBehaviour
     public GameObject room;
     public GameObject speechBubble;
     public GameObject nameBubble;
-    public Button skip;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI dialogueName;
 
@@ -49,9 +45,6 @@ public class tutorial : MonoBehaviour
         {
             Debug.LogError("대화 내용이 없습니다. CSV 파일을 확인하세요.");
         }
-        skip.onClick.AddListener(()=>{
-            SceneManager.LoadScene("order1");
-        });
     }
 
     private void LoadDialoguesFromCSV()
@@ -166,8 +159,7 @@ public class tutorial : MonoBehaviour
     {
         if ((speechBubble.activeSelf) && Input.GetMouseButtonDown(0))
         {
-            if (EventSystem.current.IsPointerOverGameObject() == false)
-                NextDialogue();
+            NextDialogue();
         }
     }
 
