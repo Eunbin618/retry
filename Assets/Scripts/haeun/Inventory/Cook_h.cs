@@ -151,6 +151,8 @@ public class Cook_h : MonoBehaviour
         }
     }
 
+    // 고치기
+
     void SetLevel_Char() {
         if (Menu_Score == 60) {
             Menu_Level = 'S';

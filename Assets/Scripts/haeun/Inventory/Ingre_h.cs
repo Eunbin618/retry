@@ -36,6 +36,7 @@ public class Ingre_h : MonoBehaviour
     private Color Custom_BackgroundColor = new Color32(255, 247, 231, 255);  // 크리미한 아이보리 톤 (밝은 느낌)
 
 
+    // 고치기
 
 
 

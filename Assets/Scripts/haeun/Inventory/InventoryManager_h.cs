@@ -101,6 +101,7 @@ public class InventoryManager_h : MonoBehaviour
 
     [SerializeField] private GameData GD = new GameData();
 
+    // 고치기
     
 
     void Start()
