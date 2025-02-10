@@ -351,6 +351,8 @@ public class InventoryManager_h : MonoBehaviour
 
         AudioManager.Instance.PlaySfx(AudioManager.Sfx.button);
         SceneManager.LoadScene("Match");
+
+        
     }
 
     private void LoadIngredientsFromCSV()

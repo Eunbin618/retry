@@ -248,7 +248,7 @@ public class MatchGame_h : MonoBehaviour
         Debug.Log($"FinalScore: {FinalScore} 확인");
         
         // 보너스 게임을 인벤토리를 통해 시작한 씬으로 다시 돌아갈 수 있도록 만들기
-        string SceneName = PlayerPrefs.GetString("PreviousScene", "order");
+        string SceneName = PlayerPrefs.GetString("PreviousScene", "customer");
         SceneManager.LoadScene(SceneName);
     }
 
